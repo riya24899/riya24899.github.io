@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	box-sizing: border-box;
+	transition: all .25s ease-in-out;
+}
+
+::selection {
+	background: #111;
+	color: #fff;
+	text-decoration: none;
+	box-shadow: none;
+	text-shadow: none;
+	}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+	background-color: #1b1b1b;
+	font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    color: #9b9b9b;
+    margin-left:45%;
+	margin-right:10%;
+}
+
+.self, .sub{
+	margin-bottom: 5%;
+}
+
+.self{
+	margin-top: 10%;
+}
+
+.sub{
+	margin-top: 3%
+}
+
+.table2{
+	margin-bottom: 7%;
+}
+
+hr.style1{
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.marks{
+	text-align: right;
+}
+
+.heading{
+	padding-bottom: 2%;
+}
+
+.table1,.table2{
+	width:50%;
+}

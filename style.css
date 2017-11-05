@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  box-sizing: border-box;
+  transition: all .25s ease-in-out;
+}
+
+::selection {
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-image: url(riya.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+.center{
+  position: absolute;
+  top:47%; 
+}
+
+.main{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color:#dcdcdc;
+  width: 100%;
+  margin-left: 25px;
+}
+
+.mid, .links{
+  font-family: 'Crimson Text', serif;
+  margin-left: 25px;
+}
+
+.mid{
+  font-size: 25px;
+  letter-spacing: 3px;
+  color:#b1b1b1;
+}
+
+.links{
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 10px;
+}
+
+
+
